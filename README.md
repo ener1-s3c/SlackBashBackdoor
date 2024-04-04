@@ -24,6 +24,11 @@ pip3 install -r requirements.txt
 Short Description: Provide a brief description of what the command does.
 Usage Hint: Provide usage instructions for the command.
 
+### Export Slack Webhook
+```
+export SLACK_WEBHOOK_URL='YOUR_SLACK_WEBHOOK_URL'
+```
+
 ### Run
 ```
 gunicorn -w 4 -b 0.0.0.0:5000 app:app
